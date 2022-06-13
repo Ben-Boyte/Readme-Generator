@@ -1,8 +1,8 @@
-# ReadMe
+# ReadMe Generator
 ## Description
-Its a read me generator
+A generated Readme File
 
-![badge](https://img.shields.io/badge/license-TheUnlicense-brightorange)
+![badge](https://img.shields.io/badge/license-BoostSoftwareLicense1.0-brightorange)
 
 ## Table of Contents
   * [Installation](#installation)
@@ -22,20 +22,20 @@ Its a read me generator
       
 ## Usage
   _Instructions for use:_
-  Enter in info for your readme
+  Download and install on to local machine
 
   ## Contribution
   _If you would like to contribute, here's how:_
-  Download and install and push to repository
+  To contribute download and install repository
       
 ## Testing
   _How to test this application:_
-  Download and install and test for yourslef
+  Open in terminal
       
 ## Questions
 
-  _If you have any additional questions:_
-  Via email
+  _If you have any additional questions contact me:_
+  via email
 
   _Contact Info:_
   GitHub: [Ben-Boyte](https://github.com/Ben-Boyte)
@@ -43,6 +43,6 @@ Its a read me generator
     
 ## License
       
-  _This application has the The Unlicense._
+  _This application has the Boost Software License 1.0._
       
-  For more information please view this [link](https://choosealicense.com/licenses/unlicense/).
+  For more information please view this [link](https://choosealicense.com/licenses/bsl-1.0/).
