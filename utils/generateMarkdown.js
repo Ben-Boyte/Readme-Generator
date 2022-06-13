@@ -73,7 +73,7 @@ let contents =
   template += contents;
 
   template +=`
-  * [Conatct](#contact)`;
+  * [Questions](#questions)`;
 
   template +=`
   * [License](#license)`;
@@ -112,8 +112,11 @@ let contents =
 
     template +=`
       
-## Contact
-  
+## Questions
+
+  _If you have any additional questions contact me:_
+  ${data.questions}
+
   _Contact Info:_
   GitHub: [${data.username}](https://github.com/${data.username})
   Email: [${data.email}](mailto:${data.email})`;

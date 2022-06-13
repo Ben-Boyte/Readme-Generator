@@ -1,21 +1,48 @@
-# asdf
+# ReadMe
 ## Description
-asdf
+Its a read me generator
 
-![badge](https://img.shields.io/badge/license-GNUAGPLv3-brightorange)
+![badge](https://img.shields.io/badge/license-TheUnlicense-brightorange)
 
 ## Table of Contents
-  * [Conatct](#contact)
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+
+  * [Contribution](#contribution)
+
+  * [Testing](#testing)
+  * [Questions](#questions)
   * [License](#license)
+
+## Installation
+    
+  _How to install this application:_
+  Download and install
       
-## Contact
-  
+## Usage
+  _Instructions for use:_
+  Enter in info for your readme
+
+  ## Contribution
+  _If you would like to contribute, here's how:_
+  Download and install and push to repository
+      
+## Testing
+  _How to test this application:_
+  Download and install and test for yourslef
+      
+## Questions
+
+  _If you have any additional questions:_
+  Via email
+
   _Contact Info:_
-  GitHub: [asd](https://github.com/asd)
-  Email: [asdf](mailto:asdf)
+  GitHub: [Ben-Boyte](https://github.com/Ben-Boyte)
+  Email: [benjaminboyte13@aol.com](mailto:benjaminboyte13@aol.com)
     
 ## License
       
-  _This application has the GNU AGPLv3._
+  _This application has the The Unlicense._
       
-  For more information please view this [link](https://choosealicense.com/licenses/agpl-3.0/).
+  For more information please view this [link](https://choosealicense.com/licenses/unlicense/).

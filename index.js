@@ -143,7 +143,22 @@ const questions = [{
       return false;
     }
   }
-}];
+},
+{
+  type: 'input',
+  name: 'questions',
+  message: 'List how you can be contacted.',
+  validate: (nameInput) => {
+    if (nameInput) {
+      return true;
+    } else {
+      console.log('Please enter a way to be contacted');
+      return false;
+    }
+  }
+}
+
+];
 
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, error => {
