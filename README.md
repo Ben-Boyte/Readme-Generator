@@ -18,15 +18,15 @@ A generated readme file
 ## Installation
     
   _How to install this application:_
-  add files to your local machine
+  Put files on local machine
       
 ## Usage
   _Instructions for use:_
-  Enter info into desired questions
+  Enter in all info
 
   ## Contribution
   _If you would like to contribute, here's how:_
-  Download and install files
+  Download and install on to local machine
       
 ## Testing
   _How to test this application:_
