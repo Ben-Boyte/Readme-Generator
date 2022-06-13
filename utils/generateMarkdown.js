@@ -36,51 +36,49 @@ function generateMarkdown(data) {
 
 console.log(licenseOption);
 
-let markdownTemplate =
+let template =
     
 `# ${data.title}
 ## Description
 ${data.description}
-![badge](https://img.shields.io/badge/license-${licenseOption}-brightorange)
-`;
+![badge](https://img.shields.io/badge/license-${licenseOption}-brightorange)`;
 
-let tableOfContents =
+let contents =
 `## Table of Contents`;
   if (data.installation) {
-    tableOfContents +=
-      `
+    contents +=`
   * [Installation](#installation)`
   };
+
   if (data.instructions) {
-    tableOfContents +=
-      `
+    contents +=`
+
   * [Usage](#usage)`
   };
+
   if (data.contribution) {
-    tableOfContents +=
-      `
+    contents +=`
+
   * [Contribution](#contribution)`
   };
+  
   if (data.testing) {
-    tableOfContents +=
-      `
+    contents +=`
+
   * [Testing](#testing)`
   };
 
-  markdownTemplate += tableOfContents;
+  template += contents;
 
-  markdownTemplate +=
-    `
+  template +=`
   * [Questions](#questions)`;
-  markdownTemplate +=
-    `
-  * [License](#license)
-    
-    `;
+
+  template +=`
+  * [License](#license)`;
 
   if (data.installation) {
-    markdownTemplate +=
-      `
+    template +=`
+
 ## Installation
     
   _Follow these steps to properly install this application:_
@@ -88,8 +86,7 @@ let tableOfContents =
   };
 
   if (data.instructions) {
-    markdownTemplate +=
-      `
+    template +=`
       
 ## Usage
   _Instructions for use:_
@@ -97,25 +94,15 @@ let tableOfContents =
   };
 
   if (data.contribution) {
-    markdownTemplate +=
-      `
+    template +=`
       
-## Contribution
-  _If you would like to contribute, please adhere to these guidelines:_
-  ${data.contribution}`
-  };
-
-  if (data.testing) {
-    markdownTemplate +=
-      `
       
 ## Testing
   _Instructions for testing application:_
   ${data.testing}`
   };
 
-    markdownTemplate +=
-      `
+    template +=`
       
 ## Questions
       
@@ -126,17 +113,14 @@ let tableOfContents =
   GitHub: [${data.username}](https://github.com/${data.username})
   Email: [${data.email}](mailto:${data.email})`;
   
-  markdownTemplate +=
-    `
+  template +=`
     
 ## License
       
   _This application has the ${data.license}._
       
-  For more information please view the [license description](${licenseLink}).
-  
-  `;
-  return markdownTemplate;
+  For more information please view the [license description](${licenseLink}).`;
+  return template;
 }
 
 module.exports = generateMarkdown;

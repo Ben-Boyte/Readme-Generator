@@ -135,19 +135,18 @@ function writeToFile(fileName, data) {
 }
 
 
-const createReadMe = util.promisify(writeToFile);
+const generateReadMe = util.promisify(writeToFile);
 
-async function init() {
+async function program() {
   try {
-    const userInput = await inquirer.prompt(questions);
-    console.log('Thank you! The info is being made into a README file!', userInput);
-    const myReadme = generateMarkdown(userInput);
-    console.log(myReadme);
-    await createReadMe('README.md', myReadme);
+    const input = await inquirer.prompt(questions);
+    console.log('Thank you! The info is being made into a README file!', input);
+    const readme = generateMarkdown(input);
+    console.log(readme);
+    await generateReadMe('README.md', readme);
     
   } catch (error) {
     console.log('Error.' + error);
   }
 };
-
-init();
+program();
