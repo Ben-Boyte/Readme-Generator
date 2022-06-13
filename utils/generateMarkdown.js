@@ -37,7 +37,6 @@ function generateMarkdown(data) {
 console.log(licenseOption);
 
 let template =
-    
 `# ${data.title}
 ## Description
 ${data.description}
@@ -61,7 +60,7 @@ let contents =
 
   * [Contribution](#contribution)`
   };
-  
+
   if (data.testing) {
     contents +=`
 
@@ -95,7 +94,13 @@ let contents =
 
   if (data.contribution) {
     template +=`
-      
+
+  ## Contribution
+  _If you would like to contribute, please adhere to these guidelines:_
+  ${data.contribution}`
+  };
+  if (data.testing) {
+    template +=`
       
 ## Testing
   _Instructions for testing application:_

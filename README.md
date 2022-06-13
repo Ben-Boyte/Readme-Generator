@@ -1,9 +1,33 @@
-# Ben
+# ReadMe
 ## Description
-Ben
-![badge](https://img.shields.io/badge/license-GNUAGPLv3-brightorange)## Table of Contents
+Readme generator
+![badge](https://img.shields.io/badge/license-MozillaPublicLicense2.0-brightorange)## Table of Contents
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+
+  * [Contribution](#contribution)
+
+  * [Testing](#testing)
   * [Questions](#questions)
   * [License](#license)
+
+## Installation
+    
+  _Follow these steps to properly install this application:_
+  Install
+      
+## Usage
+  _Instructions for use:_
+  Press Readme
+
+  ## Contribution
+  _If you would like to contribute, please adhere to these guidelines:_
+  Type it and add ot
+      
+## Testing
+  _Instructions for testing application:_
+  Test it
       
 ## Questions
       
@@ -11,11 +35,11 @@ Ben
   undefined
   
   _Contact Info:_
-  GitHub: [ben](https://github.com/ben)
-  Email: [ben](mailto:ben)
+  GitHub: [Ben-Boyte](https://github.com/Ben-Boyte)
+  Email: [benjaminboyte13@aol.com](mailto:benjaminboyte13@aol.com)
     
 ## License
       
-  _This application has the GNU AGPLv3._
+  _This application has the Mozilla Public License 2.0._
       
-  For more information please view the [license description](https://choosealicense.com/licenses/agpl-3.0/).
+  For more information please view the [license description](https://choosealicense.com/licenses/mpl-2.0/).

@@ -29,6 +29,25 @@ const questions = [{
     }
   }
   },
+
+  {
+    type: 'confirm',
+    name: 'confirmContribution',
+    message: 'Would you like contributors to your repository?'
+  },
+  {
+    type: 'input',
+    name: 'contribution',
+    message: 'List how to contriubute to your repository.',
+    when: ({confirmContribution}) => {
+      if (confirmContribution) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  },
+
 {
   type: 'confirm',
   name: 'confirmInstallation',
@@ -38,7 +57,7 @@ const questions = [{
   type: 'input',
   name: 'installation',
   message: 'Please list installation instructions.',
-  when: ({ confirmInstallation }) => {
+  when: ({confirmInstallation}) => {
     if (confirmInstallation) {
       return true;
     } else {
@@ -56,7 +75,7 @@ const questions = [{
   type: 'input',
   name: 'instructions',
   message: 'Please list instructions.',
-  when: ({ confirmUsage }) => {
+  when: ({confirmUsage}) => {
     if (confirmUsage) {
       return true;
     } else {
@@ -74,7 +93,7 @@ const questions = [{
   type: 'input',
   name: 'testing',
   message: 'Please explain how your application can be tested.',
-  when: ({ testConfirm }) => {
+  when: ({testConfirm}) => {
     if (testConfirm) {
       return true;
     } else {
@@ -135,8 +154,8 @@ function writeToFile(fileName, data) {
 }
 
 
-const generateReadMe = util.promisify(writeToFile);
 
+const generateReadMe = util.promisify(writeToFile);
 async function program() {
   try {
     const input = await inquirer.prompt(questions);
