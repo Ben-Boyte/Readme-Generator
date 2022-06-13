@@ -1,8 +1,8 @@
-# ReadMe Generator
+# Readme
 ## Description
-A generated Readme File
+A generated readme file
 
-![badge](https://img.shields.io/badge/license-BoostSoftwareLicense1.0-brightorange)
+![badge](https://img.shields.io/badge/license-ApacheLicense2.0-brightorange)
 
 ## Table of Contents
   * [Installation](#installation)
@@ -18,19 +18,19 @@ A generated Readme File
 ## Installation
     
   _How to install this application:_
-  Download and install
+  add files to your local machine
       
 ## Usage
   _Instructions for use:_
-  Download and install on to local machine
+  Enter info into desired questions
 
   ## Contribution
   _If you would like to contribute, here's how:_
-  To contribute download and install repository
+  Download and install files
       
 ## Testing
   _How to test this application:_
-  Open in terminal
+  Download and install on to local machine
       
 ## Questions
 
@@ -43,6 +43,6 @@ A generated Readme File
     
 ## License
       
-  _This application has the Boost Software License 1.0._
+  _This application has the Apache License 2.0._
       
-  For more information please view this [link](https://choosealicense.com/licenses/bsl-1.0/).
+  For more information please view this [link](https://choosealicense.com/licenses/apache-2.0/).
