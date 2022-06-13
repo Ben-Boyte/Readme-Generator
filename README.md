@@ -1,45 +1,21 @@
-# ReadMe
+# asdf
 ## Description
-Readme generator
-![badge](https://img.shields.io/badge/license-MozillaPublicLicense2.0-brightorange)## Table of Contents
-  * [Installation](#installation)
+asdf
 
-  * [Usage](#usage)
+![badge](https://img.shields.io/badge/license-GNUAGPLv3-brightorange)
 
-  * [Contribution](#contribution)
-
-  * [Testing](#testing)
-  * [Questions](#questions)
+## Table of Contents
+  * [Conatct](#contact)
   * [License](#license)
-
-## Installation
-    
-  _Follow these steps to properly install this application:_
-  Install
       
-## Usage
-  _Instructions for use:_
-  Press Readme
-
-  ## Contribution
-  _If you would like to contribute, please adhere to these guidelines:_
-  Type it and add ot
-      
-## Testing
-  _Instructions for testing application:_
-  Test it
-      
-## Questions
-      
-  _For further questions:_
-  undefined
+## Contact
   
   _Contact Info:_
-  GitHub: [Ben-Boyte](https://github.com/Ben-Boyte)
-  Email: [benjaminboyte13@aol.com](mailto:benjaminboyte13@aol.com)
+  GitHub: [asd](https://github.com/asd)
+  Email: [asdf](mailto:asdf)
     
 ## License
       
-  _This application has the Mozilla Public License 2.0._
+  _This application has the GNU AGPLv3._
       
-  For more information please view the [license description](https://choosealicense.com/licenses/mpl-2.0/).
+  For more information please view this [link](https://choosealicense.com/licenses/agpl-3.0/).

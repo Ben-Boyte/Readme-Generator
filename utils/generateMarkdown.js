@@ -40,7 +40,10 @@ let template =
 `# ${data.title}
 ## Description
 ${data.description}
-![badge](https://img.shields.io/badge/license-${licenseOption}-brightorange)`;
+
+![badge](https://img.shields.io/badge/license-${licenseOption}-brightorange)
+
+`;
 
 let contents =
 `## Table of Contents`;
@@ -70,7 +73,7 @@ let contents =
   template += contents;
 
   template +=`
-  * [Questions](#questions)`;
+  * [Conatct](#contact)`;
 
   template +=`
   * [License](#license)`;
@@ -80,7 +83,7 @@ let contents =
 
 ## Installation
     
-  _Follow these steps to properly install this application:_
+  _How to install this application:_
   ${data.installation}`
   };
 
@@ -96,23 +99,20 @@ let contents =
     template +=`
 
   ## Contribution
-  _If you would like to contribute, please adhere to these guidelines:_
+  _If you would like to contribute, here's how:_
   ${data.contribution}`
   };
   if (data.testing) {
     template +=`
       
 ## Testing
-  _Instructions for testing application:_
+  _How to test this application:_
   ${data.testing}`
   };
 
     template +=`
       
-## Questions
-      
-  _For further questions:_
-  ${data.questions}
+## Contact
   
   _Contact Info:_
   GitHub: [${data.username}](https://github.com/${data.username})
@@ -124,7 +124,7 @@ let contents =
       
   _This application has the ${data.license}._
       
-  For more information please view the [license description](${licenseLink}).`;
+  For more information please view this [link](${licenseLink}).`;
   return template;
 }
 
